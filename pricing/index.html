@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- I'm not gonna do the src thing here...-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel = "stylesheet"/>
+		<link rel = "stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<section class = "unit">
+			Order Details
+			<div class = "containerPricy">
+				<div class = "text">
+					Total Items
+				</div>
+				<div class "amount" id = "itemAmount">
+					2 items
+				</div>
+			</div>
+			<div class = "item">
+				<img src = "airpods.jpg">
+				<div class = "product">
+					<div class = product__name> apple airpod pro lite neo</div>
+					<div class = product__price> $179.99 </div>
+				</div>
+				<div class = "removeItem" onclick = "removeItem(0);">
+					<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+				</div>
+			</div>
+			<div class = "item">
+				<img src = "airpods.jpg">
+				<div class = "product">
+					<div class = product__name> apple airpod pro lite neo 5 64 max ultra smash version collectors edition FE</div>
+					<div class = product__price> $150.00 </div>
+				</div>
+				<div class = "removeItem" onclick = "removeItem(1)">
+					<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+				</div>
+			</div>
+			<div class = "containerPricy shipping">
+				<div class = "whatIs">
+					Shipping
+				</div>
+				<div class = "amount bright" id = "itemAmount">
+					$9.99
+				</div>
+			</div>
+			<div class = "containerPricy total">
+				<div class = "whatIs">
+					Total
+				</div>
+				<div class = "amount" id = "itemAmount">
+					$498.99
+				</div>
+			</div>
+			<a href = "" class = clickable> Proceed to Checkout </a>
+		</section>
+	</body>
+	<script src = "script.js"></script>
+</html>
